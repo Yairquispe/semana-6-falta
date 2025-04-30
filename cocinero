@@ -1,0 +1,18 @@
+public class Cocinero extends Empleado {
+    private String especialidad_coc;
+    private String tipo_coc;
+    private int tiempoexp_coc;
+
+    public Cocinero() {
+    }
+
+    @Override
+    public String reporte() {
+        String mensaje= "\n reporte cocinero: "+
+                "\n especialidad: "+this.especialidad_coc+
+                "\n tipocomida: " + this.tipo_coc +
+                "\n tiempo experiencia: " + this.tipo_coc +
+        return super.reporte(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
+    
+}
