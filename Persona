@@ -1,0 +1,33 @@
+public class Persona {
+    //atributos
+    private String DNI;
+    private String nom_per;
+    private String fecNac;
+    //metodos
+
+    public Persona() {
+    }
+
+    public Persona(String DNI) {
+        this.DNI = DNI;
+    }
+    public void alimentarse(){
+        System.out.println("la personas se alimenta");
+    }
+        public void trasladarse(){
+            System.out.println("la persona se traslada");
+    }
+            public void comunicar(){
+                System.out.println("la persona se comunica");
+    }
+            
+                public void reporte(){
+                    String variable = "\n reporte de persona "+
+                            "\n Dni : "
+
+
+
+                            
+                    return mensaje;
+    }
+}
