@@ -1,0 +1,55 @@
+public class Empleado extends Persona {
+    private String cod_emp;
+    private String cargo_emp;
+    private String iniciolaborales;
+
+    public Empleado() {
+    }
+
+    public Empleado(String cod_emp) {
+        this.cod_emp = cod_emp;
+    }
+    public double cobrarsueldo( ){
+        return 0;
+    }
+    public void tramitar(String Tipodoc ){
+        System.out.println("el empleado tramita: "+ Tipodoc);
+    }
+    @Override
+    public String reporte(){
+        //super.reporte();
+        String mensaje = "\n reporte de empleados: " +
+                "\n Codigo" +this.cod_emp +
+                "\n cargo" +this.cargo_emp +
+                "\niniciop de labores" +this.iniciolaborales + 
+                        return mensaje; 
+                        
+                        
+
+    }
+
+    public String getCod_emp() {
+        return cod_emp;
+    }
+
+    public void setCod_emp(String cod_emp) {
+        this.cod_emp = cod_emp;
+    }
+
+    public String getCargo_emp() {
+        return cargo_emp;
+    }
+
+    public void setCargo_emp(String cargo_emp) {
+        this.cargo_emp = cargo_emp;
+    }
+
+    public String getIniciolaborales() {
+        return iniciolaborales;
+    }
+
+    public void setIniciolaborales(String iniciolaborales) {
+        this.iniciolaborales = iniciolaborales;
+    }
+ 
+}
